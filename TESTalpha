@@ -14,11 +14,11 @@ for line in fh:
         time = times.split(':')
         hour = [time[0]]
         #print (hour)
-        
+
         for hours in hour :
             counts[hours] = counts.get(hours, 0) + 1
 
 srtcounts = sorted(counts.items())
 for tup in srtcounts :
-    print (tup[0], tup [1])    
-        
+    print (tup[0], tup [1])
+    #yes
